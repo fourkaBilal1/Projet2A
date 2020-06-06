@@ -10,9 +10,6 @@ def theta_ss(x,y):
     
 def theta_s(x,y):
     
-    if 0.2<x<0.2 or 0.2<y<0.2:
-        return 0
-    
     if x>0:
         return 1*math.atan(2*y/(x**2+y**2))
     if x<=0:
